@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/* compañeros, me leen por aquí? 
+
+si, aquí sigo(Lore)
+genial :D, desean que suba el código al discord como el trabajo en grupo? o que se los pase por el personal tal vez
+
+te agradecería si lo subes a discord a traves de github y lo bajo de ahí
+
+no hay problema, dejenme un momento lo subo a github y les paso el link
+
+Gracias Fatima :)*/
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.top-menu{
+  display: flex;
+  justify-content: space-around;
+  color: #FFF;
+  background-color: #222222;
+  padding: 4px;
+  font-size: 10px;
+}
+
+header ul {
+  display: none;
+}
+
+.top-menu-options{
+  display: flex;
+  gap: 10px;
+}
+.bottom-footer{
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  background-color: #222222;
+  padding: 4px;
+  font-size: 10px;
+}
+header{
+  background-color: #F0A83E;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 40px;
+}
+header .logo, 
+footer .logo{
+  height: 23px;
+  object-fit: contain;
+  text-align: center;
+}
+footer{
+  background-color: #3C2313;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 11px 70px;
+}
+footer h3{
+  font-size: 20px;
+}
+footer p{
+  font-size: 10px;
+  color: #8A8787;
+}
+footer .option{
+  display: flex;
+  gap: 25px;
+  margin: 20px 0;
+}
+footer i{
+  background-color: #8A8787;
+  border: 3px solid #786960;
+  border-radius: 50%;
+  padding: 2px;
+}
+.slide{
+  width: 100%;
+  height: 409px;
+  background-image: url('./assets/bowl-background.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
+.slide h2{
+  background-color: #FFF;
+  border-radius: 5px;
+  color: #3C2313;
+  font-weight: 400;
+  width: auto;
+  padding: 10px;
+}
+.slide p, 
+.card,
+.productos-destacados h1, 
+.formulario h1{
+  color: #3C2313;
+}
+
+.formulario {
+  display: flex;
+}
+.slide .comederos{
+  background-color: #F0A83E;
+  color: #FFF;
+  padding: 15px 23px;
+}
+.content-slide{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  gap: 12px;
+}
+.productos-destacados ul{
+  color: #666666;
+  list-style: none;
+  display: flex;
+  gap: 13px;
+  padding: 0;
+  margin: 20px;
+}
+.productos-destacados img{
+  height: 71px;
+}
+.productos-destacados{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  padding: 24px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.productos-destacados h1, .formulario h1{
+  font-size: 40px;
+  text-align: center;
+}
+.productos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FBFAF6;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+.card img{
+  height: 268.86px;
+}
+.card a{
+  color: #F0A83E;
+}
+.formulario .input{
+  background-color: #3C2313;
+  border-radius: 15px;
+  color: #AB9C9C;
+  font-weight: 400;
+  padding: 15px 14px;
+  width: 100%;
+  font-size: 9px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  margin: 30px 0;
+}
+.formulario h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.formulario .inputs{
+  width: 340px;
+  gap: 10px;
+}
+.formulario .buttons{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 6px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.formulario .button{
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+  padding: 0.9em 1em;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+.resetear{
+  background-color: #8A8787;
+}
+.enviar{
+  background-color: #F0A83E;
+}
+.suscribcion{
+  background-color: #F0A83E;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 16px;
+}
+.sub-anuncio, .sub-formulario{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.sub-formulario .correo, .sub-formulario .button{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  box-sizing: border-box;
+}
+.sub-formulario .correo{
+  background-color: #FFF;
+  color: #A0A0A0;
+  width: 271px;
+  border-radius: 15px;
+  padding: 14px 8px;
+}
+.sub-formulario .button{
+  background-color: #3C2313;
+  border-radius: 17px;
+  padding: 9px;
+  font-size: 15px;
+}
+
+@media (min-width: 500px){
+  header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .hamburguesa{
+    display: none;
+  }
+  .formulario .buttons{
+     width: auto; /* hola Alvaro, sigues aquí? */
+    justify-content: center;
+  }
+  .formulario .button{
+    max-width: 110px;
+    padding: 0.5em 1em;
+  }
+  footer{
+    flex-flow: row-reverse wrap;
+  }
+  .sub-formulario .button{
+    font-size: 9px;
+  }
+}
